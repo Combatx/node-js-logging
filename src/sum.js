@@ -17,3 +17,11 @@ export const calculate = (numbers, callback) => {
   }
   callback(total);
 };
+
+export const calculateAndReturn = (numbers, callback) => {
+  let total = 0;
+  for (const number of numbers) {
+    total += number;
+  }
+  return callback(total);
+};
