@@ -1,2 +1,7 @@
 node_modules
 coverage
+application-error.log
+application.log
+ridho.log
+src/exception.log
+src/sample.json
